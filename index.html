@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="./jquery-indonesia-regions.js"></script>
+</head>
+<body>
+  <select name="city" id="city" class="island"></select>
+  <select name="city" id="city" class="province"></select>
+  <select name="city" id="city" class="city"></select>
+  <script>
+    $(".island").jqueryIndonesiaRegions({
+      type: "island"
+    });
+    $(".province").jqueryIndonesiaRegions({
+      type: "province"
+    });
+    $(".city").jqueryIndonesiaRegions({
+      type: "city"
+    });
+  </script>
+</body>
+</html>
